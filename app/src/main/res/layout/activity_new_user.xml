@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NewUserActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Cadastro de Usuários"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="8dp"
+        app:cardPreventCornerOverlap="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_add_user" />
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/edtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Sobrenome" />
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Idade" />
+
+    <EditText
+        android:id="@+id/edtProfessional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Profissão" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Salvar Usuário"
+        android:textStyle="bold"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
