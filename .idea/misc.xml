@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projetos_Reais/Lista-de-Usuarios/app/src/main/res/drawable/splash.xml" value="0.104" />
+        <entry key="..\:/Projetos_Reais/Lista-de-Usuarios/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Projetos_Reais/Lista-de-Usuarios/app/src/main/res/layout/activity_new_user.xml" value="0.27291666666666664" />
+        <entry key="..\:/Projetos_Reais/Lista-de-Usuarios/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Projetos_Reais/ListadeUsurios/app/src/main/res/drawable/ic_add_user.xml" value="0.2605" />
         <entry key="..\:/Projetos_Reais/ListadeUsurios/app/src/main/res/drawable/ic_launcher_users_list.xml" value="0.1245" />
         <entry key="..\:/Projetos_Reais/ListadeUsurios/app/src/main/res/drawable/ic_user.xml" value="0.2605" />

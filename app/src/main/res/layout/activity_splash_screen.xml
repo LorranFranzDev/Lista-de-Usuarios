@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+
+    <ImageView
+        android:id="@+id/addLogo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_add_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Olá"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/primary_700"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/addLogo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Seja muito bem vindo(a)!"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/primary_700"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addLogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

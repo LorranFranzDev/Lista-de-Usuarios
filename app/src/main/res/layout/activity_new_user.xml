@@ -16,7 +16,8 @@
         android:layout_gravity="center_horizontal"
         android:text="Cadastro de Usuários"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/primary_200"/>
 
     <androidx.cardview.widget.CardView
         app:cardUseCompatPadding="true"
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
+        android:textStyle="bold"
         android:inputType="textPersonName"
         android:hint="Nome" />
 
@@ -49,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:ems="10"
+        android:textStyle="bold"
         android:inputType="textPersonName"
         android:hint="Sobrenome" />
 
@@ -58,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:ems="10"
+        android:textStyle="bold"
         android:inputType="textPersonName"
         android:hint="Idade" />
 
@@ -67,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:ems="10"
+        android:textStyle="bold"
         android:inputType="textPersonName"
         android:hint="Profissão" />
 
@@ -76,7 +81,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Salvar Usuário"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:background="@color/secondary_200"/>
 
 
 
