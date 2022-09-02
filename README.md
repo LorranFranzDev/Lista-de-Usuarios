@@ -31,7 +31,7 @@ Aqui ficam algumas imagens demonstrativas:
 
 <p float="center">
   <img src="https://github.com/LorranFranzDev/Lista-de-Usuarios/blob/main/mediaapp/Screenshot_20220902_144619.png" width="333" />
-  <img src="https://github.com/LorranFranzDev/Lista-de-Usuarios/blob/main/mediaapp/Screenshot_20220901_181428.png" width="333" /> 
+  <img src="https://github.com/LorranFranzDev/Lista-de-Usuarios/blob/main/mediaapp/Screenshot_20220902_144643.png" width="333" /> 
   <img src="https://github.com/LorranFranzDev/Lista-de-Usuarios/blob/main/mediaapp/Screenshot_20220902_144643.png" width="333" />
 </p
 
