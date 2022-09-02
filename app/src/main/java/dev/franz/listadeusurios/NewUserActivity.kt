@@ -37,8 +37,8 @@ class NewUserActivity : AppCompatActivity() {
                 val result = saveUser(
                     binding.edtFirstName.text.toString(),
                     binding.edtLastName.text.toString(),
-                    binding.edtAge.text.toString(),
-                    binding.edtProfessional.text.toString()
+                    binding.edtProfessional.text.toString(),
+                    binding.edtAge.text.toString()
 
                 )
 
